@@ -7,7 +7,7 @@ int i = 0;
 
 while (i < arr.Length)
 {
-    if (arr[i] % 2 == 0) // Исправлено здесь: заменён оператор присваивания на оператор сравнения
+    if (arr[i] % 2 == 0)
     {
         System.Console.Write(arr[i] + " ");
     }
